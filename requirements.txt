@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+sklearn
+xgboost
+matplotlib
+nltk
+yfinance
+tensorflow
+jupyter
