@@ -4,7 +4,7 @@
 
 This project explores whether natural language processing (NLP) can be applied to predict stock price movements using daily news headlines. Built as part of an MBA data science capstone, it combines NLP techniques, various machine learning models, and financial reasoning to simulate stock-picking strategies.
 
-[📊 Project Report (Presentation)](./Stock_Picking_Model_Presentation.pptx)
+[📊 Project Report (Presentation)](./Stock_Picking_Model_Presentation.pdf)
 
 ---
 
