@@ -11,8 +11,16 @@ This project explores whether natural language processing (NLP) can be applied t
 ## 📌 Project Overview
 
 - **Objective:** Predict whether a stock will go UP or DOWN based on the previous day's headlines.
-- **Data Sources:** Merged stock price and headline data from [Kaggle](https://www.kaggle.com).
-- **Date Range:** January 1, 2010 – December 31, 2016.
+
+## 📦 Dataset
+
+Headline and stock price data from Kaggle:
+
+- [News Headlines Dataset for S&P 500 Stocks](https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests)
+- [S&P 500 Stock Data](https://www.kaggle.com/datasets/mosesmoncy/ny-stock-exchange-size-dataset)
+
+Date Range: **Jan 1, 2010 – Dec 31, 2016**
+
 
 ---
 
