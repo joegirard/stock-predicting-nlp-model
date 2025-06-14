@@ -87,8 +87,8 @@ This prioritizes **recall** (True Positive Rate for UP) over precision or overal
 
 ```
 project-root/
-├── notebooks/                     # Jupyter notebooks for EDA, modeling, evaluation
-├── Stock_Picking_Model_Presentation.pptx  # 📊 Presentation with visuals & findings
-├── README.md                      # You're here!
-└── requirements.txt               # Python dependencies
+├── notebook/                             # Jupyter notebooks for EDA, modeling, evaluation
+├── Stock_Picking_Model_Presentation.pdf  # 📊 Presentation with visuals & findings
+├── README.md                             # You're here!
+└── requirements.txt                      # Python dependencies
 ```
