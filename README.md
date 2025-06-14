@@ -75,12 +75,13 @@ This prioritizes **recall** (True Positive Rate for UP) over precision or overal
 
 ---
 
-## 📁 File Structure
+### 📁 File Structure
 
+```
 project-root/
-│
-├── data/ # Cleaned stock + headline dataset
-├── notebooks/ # Jupyter notebooks for EDA, modeling, evaluation
-├── Stock_Picking_Model_Presentation.pptx # 📊 Presentation with visuals & findings
-├── README.md # You're here!
-└── requirements.txt # Python dependencies
+├── data/                          # Cleaned stock + headline dataset
+├── notebooks/                     # Jupyter notebooks for EDA, modeling, evaluation
+├── Stock_Picking_Model_Presentation.pptx  # 📊 Presentation with visuals & findings
+├── README.md                      # You're here!
+└── requirements.txt               # Python dependencies
+```
