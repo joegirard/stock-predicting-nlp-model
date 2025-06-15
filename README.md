@@ -64,10 +64,9 @@ This prioritizes **recall** (True Positive Rate for UP) over precision or overal
 
 | Model          | Accuracy | Precision (UP) | Recall (UP) | Notes                              |
 |----------------|----------|----------------|-------------|------------------------------------|
-| Random Forest  | 50.4%    | 0.513          | 0.584       | Base model one                     |
-| CNN-LSTM       | 50.5%    | 0.514          | 0.573       | Faster training vs RF base         |
-| Stacked        | 50.1%    | 0.512          | 0.552       | Underperformed vs both base models |
-| GPT-3.5 Turbo  | 50.5%    | 0.4968         | 0.8000      | Prompt-based, low confidence       |
+| Random Forest  | 50.4%    | 0.513          | 0.584       | Base model 1                       |
+| CNN-LSTM       | 50.5%    | 0.514          | 0.573       | Base 2; Faster training vs RF      |
+| Stacked        | 50.1%    | 0.512          | 0.552       | Underperformed both base models    |
 
 **Despite modest accuracy, the base models' high-recall predictions achieved cumulative returns that outpaced the S&P 500 in backtests.**
 
