@@ -1,6 +1,6 @@
 # stock-predicting-nlp-model
 
-# 🧠 Stock Prediction Using News Headlines
+# Stock Prediction Using News Headlines
 
 This project explores whether natural language processing (NLP) can be applied to predict stock price movements using daily news headlines. Built as part of an MBA data science capstone, it combines NLP techniques, various machine learning models, and financial reasoning to simulate stock-picking strategies.
 
@@ -8,11 +8,11 @@ This project explores whether natural language processing (NLP) can be applied t
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Objective:** Predict whether a stock will go UP or DOWN based on the previous day's headlines.
 
-## 📦 Dataset
+## Datasets
 
 Headline and stock price data from Kaggle:
 
@@ -21,23 +21,22 @@ Headline and stock price data from Kaggle:
 
 Date Range: **Jan 1, 2010 – Dec 31, 2016**
 
-
 ---
 
-## 🧮 Methodology
+## Methodology
 
-### 🗂️ Preprocessing
+### Preprocessing
 - Lowercasing, stopword removal, punctuation removal, lemmatization.
 - Excluded rows with missing headlines.
 - Focused on daily predictions (not weekly, due to pricing lag).
 
-### 🔠 NLP & Feature Engineering
+### NLP & Feature Engineering
 - Headlines vectorized using **TF-IDF**.
 - Experimental inclusion of quantitative indicators (e.g., volatility) found to be non-predictive.
 
 ---
 
-## 🤖 Models & Techniques
+## Models & Techniques
 
 Explored a range of supervised ML models:
 - **Random Forest**
@@ -51,7 +50,7 @@ Also tested **BERT** and **ChatGPT (gpt-3.5-turbo)** with prompts to assess head
 
 ---
 
-## 📈 Evaluation Strategy
+## Evaluation Strategy
 
 While initial models had low classification accuracy (~50%), I reframed the problem:
 
@@ -88,7 +87,7 @@ This prioritizes **recall** (True Positive Rate for UP) over precision or overal
 ```
 project-root/
 ├── notebook/                             # Jupyter notebooks for EDA, modeling, evaluation
-├── Stock_Picking_Model_Presentation.pdf  # 📊 Presentation with visuals & findings
+├── Stock_Picking_Model_Presentation.pdf  # Presentation with visuals & findings
 ├── README.md                             # You're here!
 └── requirements.txt                      # Python dependencies
 ```
